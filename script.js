@@ -38,7 +38,7 @@ const phrases = [
   "espejos LED elegantes",
   "canceles de cristal",
   "ventanales de aluminio",
-  "domos y pergolados",
+  "domos y pérgolas",
   "soluciones personalizadas"
 ];
 const twText = $("#twText");
@@ -203,9 +203,9 @@ form?.addEventListener("submit", (event) => {
   const mensaje = data.get("mensaje") || "Sin detalles adicionales.";
 
   const text = [
-    "Hola, quiero solicitar una cotizacion con INOVALUGLASS.",
+    "Hola, quiero solicitar una cotización con INOVALUGLASS.",
     `Nombre: ${nombre}`,
-    `Telefono: ${telefono}`,
+    `Teléfono: ${telefono}`,
     `Proyecto: ${tipo}`,
     `Detalles: ${mensaje}`
   ].join("\n");
